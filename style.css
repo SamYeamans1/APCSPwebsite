@@ -1,1 +1,126 @@
 
+.projectheader{
+    text-align:center;
+    word-spacing:100px;
+}
+h1{
+    text-align:center;
+}
+h2{
+    text-align:center;
+}
+.mynav a:hover{
+    background-color:lightblue;
+}
+
+.col-sm{
+    font-size:40px;
+    text-align:center;
+}
+.bio1{
+    min-height:400px;
+    background-color:#008080;
+    width:80%;
+    float:left;
+    margin-bottom:20px;
+}
+.bio2{
+    min-height:400px;
+    background-color:#ff7f50;
+    width:80%;
+    float:right;
+    margin-bottom:20px;
+}
+.bio3{
+    
+}
+
+.scrollLinks a{
+    margin:20px;
+    text-decoration:none;
+    color:black;
+    font-style:bold;
+    text-align:center;
+}
+.parallax {
+  /* The image used */
+  background-image: url("https://codehs.com/uploads/0a7d7f9c009559145a2f91e12cd0eab8");
+
+  /* Set a specific height */
+  min-height: 850px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.background {
+    background-color:lightblue;
+}
+.highlight{
+    color:yellow;
+}
+.hobby{
+    text-align:center;
+}
+.athleticnet{
+    text-align:center;
+    
+}
+.description{
+    text-align:center;
+}
+.bio-background {
+  background-image: url('https://codehs.com/uploads/405d24a0d23b844208954e5f88d17a68');
+}
+.header{
+    color:white;
+}
+.header a{
+    color:white;
+    text-align:center;
+}
+.intrests{
+    text-align:center;
+}
+.projects-background {
+  background-image: url('https://codehs.com/uploads/df69fdc0b0c8ef2a61db91f50de6942b');
+}
+.row{
+    color:white;
+}
+.projectsheader{
+    color:white;
+}
+.footer {
+  
+  position:fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: lightblue;
+  color: black;
+  text-align: left;
+  height:100px;
+  font-size:50px;
+}
+.home-background{
+    background-color:lightgreen;
+}
+.bottom{
+    height:20px;
+}
+.special{
+     animation-name: myAnimation;
+     animation-duration: 4s;
+  animation-iteration-count:infinite;
+}
+@keyframes myAnimation {
+  
+  from {background-color: yellow;}
+  to {background-color: lightblue;}
+  .footerlink a{
+      color:black;
+      font-style:bold;
+  }
